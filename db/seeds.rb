@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puppy = Puppy.new(name: "alex", age: 4, breed: "king cavalier")
-
+puppy = Puppy.new(name: "cat", age: 5, breed: "german shepherd")
+puppy = Puppy.new(name: "lady", age: 4, breed: "mutt")
 puppy.save
 
